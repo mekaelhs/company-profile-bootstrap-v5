@@ -1,5 +1,11 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 8rem;
   /* background-color: #e2edff; */
   background-color: #41464b;
   color: #ffffff;
@@ -12,6 +18,15 @@
 #projects h2 {
   color: #ffffff;
 }
+
+.social-media a {
+  margin: 0px 10px;
+}
+
+.social-media i {
+  font-size: 2rem;
+}
+
 section {
   padding-top: 5rem;
 }
