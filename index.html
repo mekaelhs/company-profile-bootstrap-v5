@@ -14,6 +14,9 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Animate on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>My Portofolio</title>
   </head>
   <body id="home">
@@ -47,9 +50,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/profile.jpg" alt="Mekael Hamonangan Simbolon" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4-">Mekael Hamonangan Simbolon</h1>
-      <p class="lead">Junior Front-End Developer | Sneaker Enthusiast</p>
+      <img src="img/profile.jpg" alt="Mekael Hamonangan Simbolon" width="200" class="rounded-circle img-thumbnail"  data-aos="fade-down" data-aos-duration="1500"/>
+      <h1 class="display-4-" data-aos="zoom-in-down" data-aos-duration="1500">Mekael Hamonangan Simbolon</h1>
+      <p class="lead" data-aos="zoom-in-down" data-aos-duration="1500">Junior Front-End Developer | Sneaker Enthusiast</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#e7e7e7"
@@ -64,15 +67,15 @@
     <section id="about" style="background-color: #e7e7e7">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="zoom-out-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <p>Hello, I am Mekael Hamonangan Simbolon, You can call me Mekael. Graduated from Jakarta State Polytechnic with Computer Bachelor Degree. Interested with Javascript Programming Language and Sneakers Fashion.</p>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="zoom-out-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="200">
             <p>Currently work at PT. Millenium Muda Mandiri and CELES UCAM Indonesia as IT Web Developer while still learning more experience to gain my professional skill and lit up the energy everyday!🔥🔥🔥</p>
           </div>
         </div>
@@ -91,12 +94,12 @@
     <section id="projects">
       <div class="container text-center">
         <div class="row mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row mb-3">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="2000">
             <div class="card">
               <img src="img/projects/1.png" class="card-img-top" alt="reactjs" />
               <div class="card-body">
@@ -105,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="150">
             <div class="card">
               <img src="img/projects/2.jpg" class="card-img-top" alt="javascript" />
               <div class="card-body">
@@ -114,7 +117,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="300">
             <div class="card">
               <img src="img/projects/5.jpg" class="card-img-top" alt="nextjs" />
               <div class="card-body">
@@ -125,7 +128,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="450">
             <div class="card">
               <img src="img/projects/3.jpg" class="card-img-top" alt="materialize" />
               <div class="card-body">
@@ -134,7 +137,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="600">
             <div class="card">
               <img src="img/projects/6.jpg" class="card-img-top" alt="html-css-js" />
               <div class="card-body">
@@ -143,7 +146,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="750">
             <div class="card">
               <img src="img/projects/7.jpg" class="card-img-top" alt="bootstrap" />
               <div class="card-body">
@@ -168,7 +171,7 @@
     <section id="contact" style="background-color: #e7e7e7">
       <div class="container text-center mb-3">
         <div class="row">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
             <h2>Contact Me</h2>
           </div>
         </div>
@@ -176,20 +179,20 @@
       <div class="row justify-content-center">
         <div class="col-md-6">
           <form class="mx-3">
-            <div class="mb-3">
+            <div class="mb-3" data-aos="fade-left" data-aos-duration="1000">
               <label for="name" class="form-label">Full Name</label>
               <input type="text" class="form-control" id="name" aria-describedby="name" />
             </div>
-            <div class="mb-3">
+            <div class="mb-3" data-aos="fade-right" data-aos-duration="1000">
               <label for="email" class="form-label">Email</label>
               <input type="email" class="form-control" id="email" aria-describedby="email" />
             </div>
-            <div class="mb-3">
+            <div class="mb-3" data-aos="fade-left" data-aos-duration="1000">
               <label for="exampleFormControlTextarea1" class="form-label">Message</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-primary" data-aos="fade-up" data-aos-duration="700">Send</button>
           </form>
         </div>
       </div>
@@ -210,5 +213,9 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
