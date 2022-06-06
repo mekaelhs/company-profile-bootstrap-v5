@@ -5,10 +5,14 @@ html,body {
 }
 
 .jumbotron {
-  padding-top: 8rem;
+  padding-top: 6rem;
   /* background-color: #e2edff; */
   background-color: #41464b;
   color: #ffffff;
+}
+
+.jumbotron h1 {
+  margin-top: 10px;
 }
 
 #projects {
