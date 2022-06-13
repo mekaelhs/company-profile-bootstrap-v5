@@ -21,6 +21,14 @@ html,body {
   margin-top: 10px;
 }
 
+.description p a {
+  text-decoration: none;
+}
+
+.description p a:hover {
+  font-weight: 800;
+}
+
 #projects {
   background-color: #41464b;
 }
