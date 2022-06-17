@@ -48,3 +48,21 @@ html,body {
 section {
   padding-top: 5rem;
 }
+
+.counter-visitor {
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.counter-visitor .eqEakt {
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #41464b;
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+
+.counter-visitor a {
+display: none !important;
+visibility: hidden !important;
+}
